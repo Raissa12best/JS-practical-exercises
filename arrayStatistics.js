@@ -10,7 +10,7 @@ Example:
 arrayStats([1, 2, 3, 4, 5]); // should return { sum: 15, average: 3.00, min: 1, max: 5 }*/
 function arrayStats(arr) {
     if (arr.length === 0) {
-        return { sum: 0, average: 0.00, min: null, max: null };
+        return { sum: 0,average: 0.00,min: null,max: null };
     }
 
     const sum = arr.reduce((acc, num) => acc + num, 0);
